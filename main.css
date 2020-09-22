@@ -156,6 +156,7 @@ header #showcase a:hover {
 
 #section1 h2 {
   max-width: 1230px;
+  margin: auto;
   font-size: 2rem;
   padding: 20px 0%;
   text-align: center;
@@ -167,6 +168,7 @@ header #showcase a:hover {
 
 #section1 > p {
   max-width: 1230px;
+  margin: auto;
   text-align: center;
   font-weight: bolder;
   font-size: 1.5rem;
@@ -843,7 +845,10 @@ footer #content #links a:hover {
 
 #form form {
   display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message' 'submit submit ';
+  grid-template-areas: 'name email'
+ 'subject phone'
+ 'message message'
+ 'submit submit ';
   grid-gap: 20px;
   max-width: 1230px;
   margin: auto;
